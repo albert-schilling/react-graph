@@ -1,0 +1,32 @@
+{
+  "name": "react-graph",
+  "version": "1.0.0",
+  "description": "Headless react library for graphs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albert-schilling/react-graph.git"
+  },
+  "keywords": [
+    "react",
+    "graph",
+    "headless"
+  ],
+  "author": "Albert Schilling",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/albert-schilling/react-graph/issues"
+  },
+  "homepage": "https://github.com/albert-schilling/react-graph#readme",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "react": "^18.3.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.1"
+  }
+}
