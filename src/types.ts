@@ -20,7 +20,7 @@ export interface INode {
   /**
    * Additional metadata associated with the node.
    */
-  meta?: Record<string, any>
+  meta?: Record<string, any> // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
 /**
@@ -40,7 +40,7 @@ export interface IEdge {
   /**
    * Additional metadata associated with the edge.
    */
-  meta?: Record<string, any>
+  meta?: Record<string, any> // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
 /**
