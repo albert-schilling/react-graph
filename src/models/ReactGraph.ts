@@ -49,6 +49,10 @@ export default class ReactGraph {
   }
 
   public connectNodes(a: ReactGraphNode, b: ReactGraphNode): ReactGraphEdge {
+    if (a === b) {
+      throw new Error('Cannot connect a node to itself.')
+    }
+
     const existingEdge = this.edges.find(
       (e) => (e.a === a && e.b === b) || (e.a === b && e.b === a)
     )
